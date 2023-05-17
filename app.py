@@ -35,7 +35,6 @@ def recommend(movie):
 
 st.markdown("<h1 style='text-align: center; color: black;'>Movie Recommender Web App</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; color: black;'>Find a similar movie from a dataset of 5,000 movies!</h4>", unsafe_allow_html=True)
-st.markdown("<h6 style='text-align: center; color: black;'>Find a similar movie from a dataset of 5,000 movies!</h6>", unsafe_allow_html=True)
 st.write("I found this dataset on this [Kaggle link](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) ")
 
 movies = pickle.load(open('movies.pkl','rb'))
