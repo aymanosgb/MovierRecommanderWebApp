@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 st.markdown(
-    """""
+    """
     <style>
     .main {
         background-color: #F5F5F5;
