@@ -35,8 +35,7 @@ def recommend(movie):
 
 st.markdown("<h1 style='text-align: center; color: black;'>Movie Recommender System</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; color: black;'>Find a similar movie from a dataset of 5,000 movies!</h4>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: black;'>Web App created by Ayman Moumen & Limouri Marwane</h4>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU >", unsafe_allow_html=True)
+
 
 movies = pickle.load(open('movies.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
@@ -69,4 +68,6 @@ if st.button('Show Recommendation'):
         st.image(recommended_movie_posters[4])
 
 st.title(" ")
-# st.write("The code for this recommender system is available [here](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+
+st.markdown("<h4 style='text-right: center; color: black;'>Web App created by Ayman Moumen & Limouri Marwane</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU >", unsafe_allow_html=True)
