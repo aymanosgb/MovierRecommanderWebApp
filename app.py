@@ -70,4 +70,4 @@ if st.button('Show Recommendation'):
 st.title(" ")
 
 st.markdown("<h4 style='text-right: center; color: black;'>Web App created by Ayman Moumen & Limouri Marwane</h4>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU >", unsafe_allow_html=True)
+st.markdown("<h4 style='text-left: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU >", unsafe_allow_html=True)
