@@ -68,6 +68,7 @@ if col2.button('Show Recommendation'):
         st.image(recommended_movie_posters[4])
 
 st.title(" ")
-
-st.markdown("<h6 style='text-align: left; color: black;'>Web App created by Ayman Moumen </h6>  <h6 style='text-align: right; color: black;'>Supervised by : M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
-st.markdown("<h6 style='text-align: left; color: black;'>  '        Marwane Limouri' </h6>", unsafe_allow_html=True)
+with col1 :
+    st.markdown("<h6 style='text-align: left; color: black;'>Web App created by Ayman Moumen </h6>  <h6 style='text-align: right; color: black;'>Supervised by : M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
+with col3 :
+    st.markdown("<h6 style='text-align: left; color: black;'>  '        Marwane Limouri' </h6>", unsafe_allow_html=True)
