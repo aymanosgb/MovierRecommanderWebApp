@@ -1,5 +1,5 @@
-nltk
-requests
-scikit_learn
-streamlit
-pandas
+nltk==3.7
+requests==2.28.1
+scikit_learn==1.2.2
+streamlit==1.17.0
+pandas==2.8.2
