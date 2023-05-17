@@ -33,7 +33,7 @@ def recommend(movie):
 
     return recommended_movie_names,recommended_movie_posters
 
-st.markdown("<h1 style='text-align: center; color: black;'>Movie Recommender System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Movie Recommender Web App</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; color: black;'>Find a similar movie from a dataset of 5,000 movies!</h4>", unsafe_allow_html=True)
 
 
