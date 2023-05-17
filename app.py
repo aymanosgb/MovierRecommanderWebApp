@@ -6,7 +6,7 @@ st.markdown(
     """""
     <style>
     .main {
-        background-color: #F5F5F5;
+        background-color: #FFC0CB;
         }
         </style>
         """,unsafe_allow_html=True
