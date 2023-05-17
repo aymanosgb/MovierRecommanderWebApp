@@ -70,7 +70,7 @@ if col2.button('Show Recommendation'):
 st.title(" ")
 col11, col22, col33 = st.beta_columns(3)
 with col11 :
-    st.markdown("<h6 style='text-align: center; color: black;'>Created by Ayman Moumen <br>  & Marwane Limouri </br>  </h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: black;'>Created by : <br> Ayman Moumen <br>  & Marwane Limouri </br>  </h6>", unsafe_allow_html=True)
 
 with col33 :
     st.markdown("<h6 style='text-align: center; color: black;'>Supervised by : <br>M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
