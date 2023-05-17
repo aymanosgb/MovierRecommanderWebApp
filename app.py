@@ -45,8 +45,8 @@ selected_movie = st.selectbox(
     "Type or select a movie you like :",
     movie_list
 )
-
-if st.button('Show Recommendation'):
+col1, col2, col3 = st.beta_columns(3)
+if col2.button('Show Recommendation'):
     st.write("Recommended Movies based on your interests are :")
     recommended_movie_names,recommended_movie_posters = recommend(selected_movie)
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -69,5 +69,5 @@ if st.button('Show Recommendation'):
 
 st.title(" ")
 
-st.markdown("<h4 style='text-right: center; color: black;'>Web App created by Ayman Moumen & Limouri Marwane</h4>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-left: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU >", unsafe_allow_html=True)
+st.markdown("<h6 style='text-right: center; color: black;'>Web App created by Ayman Moumen & Limouri Marwane</h4>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-left: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU </h4>", unsafe_allow_html=True)
