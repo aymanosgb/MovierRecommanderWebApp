@@ -69,5 +69,6 @@ if col2.button('Show Recommendation'):
 
 st.title(" ")
 
-st.markdown("<h6 style='text-left: center; color: black;'>Web App created by Ayman Moumen </h6>  <h6 style='text-right: center; color: black;'>Supervised M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
-st.markdown("<h6 style='text-align: center; color: black;'>                    Marwane Limouri </h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-left: center; color: black;'>Web App created by Ayman Moumen </h6>  <h6 style='text-right: center; color: black;'>Supervised by : M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-left: center; color: black;'>  '       Marwane Limouri' </h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-right: center; color: black;'>  '       Marwane Limouri' </h6>", unsafe_allow_html=True)
