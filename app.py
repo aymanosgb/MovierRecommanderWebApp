@@ -73,5 +73,5 @@ with col11 :
     st.markdown("<h6 style='text-align: center; color: black;'>Created by Ayman Moumen <br>  & Marwane Limouri </br>  </h6>", unsafe_allow_html=True)
 
 with col33 :
-    st.markdown("<h6 style='text-align: left; color: black;'>Supervised by : M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: left; color: black;'>Supervised by : <br>M. Cédric Stéphane KOUMETIO TEKOUABOU</h6>", unsafe_allow_html=True)
 
